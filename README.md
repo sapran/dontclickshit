@@ -2,6 +2,10 @@
 
 Постійна адреса: https://github.com/sapran/dontclickshit/
 
+Оригінальна майнд-мапа (оновлюється):
+- [Українською](http://www.xmind.net/m/DNRY)
+- [Англійською](http://www.xmind.net/m/raQ4)
+
 ## Зміст
 
 1. [Не натискайте каку](#Не-натискайте-каку)
@@ -329,4 +333,4 @@ apt update && apt -y upgrade
 
 Якщо у вас є що додати або ви знайшли в тексті помилку, напишіть на :email: sapran@protonmail.com або [створіть issue](https://github.com/sapran/dontclickshit/issues/new).
 
-Скомпільовано та підготовлено by Vlad Styran, [Berezha Security](https://berezhasecurity.com), https://styran.com
+Скомпільовано та підготовлено by Vlad Styran, [Berezha Security](https://berezhasecurity.com), https://blog.styran.com
