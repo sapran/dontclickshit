@@ -354,4 +354,4 @@ Compiled and drafted by Vlad Styran, [Berezha Security](https://berezhasecurity.
 
 This guide wouldn't exist without the help of many security professionals in Ukraine and abroad. Big thanks to everyone who contributed to the contents of this document and proposed the edits along the course of its creation.
 
-Special thanks go to Boris "[Jaded Security](https://twitter.com/jadedsecurity)" Sverdlik for the great deal of inspiration and coining the "Don't click shit" slogan.
+Special thanks go to Boris "[@jadedsecurity](https://twitter.com/jadedsecurity)" Sverdlik for the great deal of inspiration and coining the "Don't click shit" slogan.
