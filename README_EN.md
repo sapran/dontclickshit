@@ -170,7 +170,7 @@ Make sure your Windows Update is [configured to check for updates for all Micros
 
 Update third party software regularly or automatically. For that, use `Flexera` (formerly Secunia) PSI or an equivalent tool that checks your third party applications for updates and allows you to update them automatically.
 
-:wrench: Flexra PSI: http://www.flexerasoftware.com/enterprise/products/software-vulnerability-management/personal-software-inspector/
+:wrench: Flexera PSI: http://www.flexerasoftware.com/enterprise/products/software-vulnerability-management/personal-software-inspector/
 
 ### macOS
 
@@ -216,7 +216,7 @@ On Windows **do use antivirus**. But don't forget that AV is very ineffective ag
 Choosing antivirus is not easy: 'independent' tests are biased toward the AV vendors who in the end of the day pay for these tests. There are, however, more or less objective reviews and testing results.
 
 - AV-Test.org https://www.av-test.org/en/antivirus/home-windows
-- Результати тестування NSS Labs, якщо ви можете їх знайти.
+- NSS Labs reports, if you can find any nowadays.
 
 ## Backup your data
 
@@ -257,8 +257,6 @@ You can use `Full Disk Encryption` feature of your OS to protect the data at you
 Enable `File Vault`. That's it, you're done. [Apple guide](https://support.apple.com/en-us/HT204837).
 
 #### Linux
-
-Використовуйте `LUKS` або інші засоби повного шифрування диску. В якості альтернативи, під час встановлення ОС зазвичай можна вибрати параметри шифрування диску або шифрування тільки вашого домашнього розділу. Ось це [достатньо детальна інструкція для Arch](https://wiki.archlinux.org/index.php/Dm-crypt/Encrypting_an_entire_system), але кожен популярний дистрибутив має аналогічний документ.
 
 Use `LUKS` or other means of Full Disk Encryption. Alternatively you can select disk encryption options or encrypt just your home partition during OS installation. This seems to be a reasonable [guide for Arch](https://wiki.archlinux.org/index.php/Dm-crypt/Encrypting_an_entire_system), but every popular distro has a similar how-to.
 
