@@ -12,14 +12,14 @@ Original mind map (updated):
 
 1. [Don't click shit](#dont-click-shit)
 2. [Use passphrases instead of passwords](#use-passphrases-instead-of-passwords)
-3. [Use multi-factor authentication](#Use-multi-factor-authentication)
-4. [Operating system and software](#Operating-system-and-software)
-5. [Antivirus](#Antivirus)
-6. [Backup your data](#Backup-your-data)
-7. [Use crypto](#Use-crypto)
-8. [Mobile security](#Mobile-security)
-9. [Physical security](#Physical-security)
-10. [Stay safe!](#Stay-safe)
+3. [Use multi-factor authentication](#use-multi-factor-authentication)
+4. [Operating system and software](#operating-system-and-software)
+5. [Antivirus](#antivirus)
+6. [Backup your data](#backup-your-data)
+7. [Use crypto](#use-crypto)
+8. [Mobile security](#mobile-security)
+9. [Physical security](#physical-security)
+10. [Stay safe!](#stay-safe)
 
 ## Don't click shit
 
@@ -104,7 +104,7 @@ Use passphrase recipes to create strong unique passphrases. Recipe is an algorit
 
 No one should know your passphrase except you. Don't tell it to anyone including your boss, your sysadmin or helpdesk, your wife, your parents, your kids etc. **There is no legitimate reason for anyone to ask for your passphrase**. Technically, even the system that you are using it for does not have your passphrase in its original form – instead it 'hashes' it and stores its cryptographically protected copy.
 
-Never write down your passphrases on paper or in a clear text (unencrypted) file. Password-protected Excel is not encrypted. Password-protected archive is not properly encrypted. Only use trustworthy [password managers](#Password-managers) if needed.
+Never write down your passphrases on paper or in a clear text (unencrypted) file. Password-protected Excel is not encrypted. Password-protected archive is not properly encrypted. Only use trustworthy [password managers](#password-managers) if needed.
 
 ### Updating passphrases
 
@@ -236,7 +236,7 @@ Select and use a [third party backup software](http://www.techradar.com/news/sof
 
 Linux users have many backup mechanisms at their disposal: from tar to rsync remotely to a file share. Less technically savvy users can choose from [more user-friendly tools](http://www.nuxified.org/blog/easy-linux-backup-software-time-machine-functionality/).
 
-You can backup your data by putting it to a cloud drive such as `Dropbox`, `iCloud Drive`, `Google Drive` etc. Don't forget to [encrypt data](#Encrypt-cloud-data) before uploading it though.
+You can backup your data by putting it to a cloud drive such as `Dropbox`, `iCloud Drive`, `Google Drive` etc. Don't forget to [encrypt data](#encrypt-cloud-data) before uploading it though.
 
 ## Use crypto
 
