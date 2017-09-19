@@ -1,5 +1,7 @@
 # How to stay safe online
 
+[Українська версія](https://github.com/sapran/dontclickshit/blob/master/README.md)
+
 Permanent link: https://github.com/sapran/dontclickshit/
 
 Original mind map (updated):
@@ -337,7 +339,7 @@ Use separate computers for business and financial operations and activities that
 
 :bulb: In some authoritarian countries, you may *be asked* to provide a password to your encrypted information at the border and at the airport. When crossing the borders of such states, take advantage of the advice: ask the person you trust (preferably the lawyer) to change your password before leaving and give it to you only when you complete a trip. Repeat the procedure on the reverse path.
 
-## Бережіться!
+## Stay safe!
 
 Thank you for taking care of your personal cyber-security. Share these tips with your friends, colleagues and close ones to make the world a bit safer.
 
