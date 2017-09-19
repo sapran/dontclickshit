@@ -1,5 +1,7 @@
 # Як не стати кібер-жертвою
 
+[English version](https://github.com/sapran/dontclickshit/blob/master/README_EN.md)
+
 Постійна адреса: https://github.com/sapran/dontclickshit/
 
 Оригінальна майнд-мапа (оновлюється):
