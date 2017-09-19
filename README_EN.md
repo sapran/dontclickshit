@@ -20,6 +20,7 @@ Original mind map (updated):
 8. [Mobile security](#mobile-security)
 9. [Physical security](#physical-security)
 10. [Stay safe!](#stay-safe)
+11. [Credits](#credits)
 
 ## Don't click shit
 
@@ -345,6 +346,12 @@ These tips are contributed by multiple security professionals who have years of 
 
 You can share these tips, use them commercially, and change them as you wish. It's free. Links to the original and credits are welcome.
 
-If you have something add or found an error in the text, let me know: via email sapran@protonmail.com or by creating an [issue](https://github.com/sapran/dontclickshit/issues/new).
+If you have something add or found an error in the text, let me know: via email sapran@protonmail.com or by creating an [issue](https://github.com/sapran/dontclickshit/issues/new). Pull requests are the most welcome.
 
 Compiled and drafted by Vlad Styran, [Berezha Security](https://berezhasecurity.com), https://blog.styran.com.
+
+## Credits
+
+This guide wouldn't exist without the help of many security professionals in Ukraine and abroad. Big thanks to everyone who contributed to the contents of this document and proposed the edits along the course of its creation.
+
+Special thanks go to Boris "[Jaded Security](https://twitter.com/jadedsecurity)" Sverdlik for the great deal of inspiration and coining the "Don't click shit" slogan.
