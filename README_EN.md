@@ -10,8 +10,8 @@ Original mind map (updated):
 
 ## Contents
 
-1. [Don't click shit](#Don't-click-shit)
-2. [Use passphrases instead of passwords](#Use-passphrases-instead-of-passwords)
+1. [Don't click shit](#dont-click-shit)
+2. [Use passphrases instead of passwords](#use-passphrases-instead-of-passwords)
 3. [Use multi-factor authentication](#Use-multi-factor-authentication)
 4. [Operating system and software](#Operating-system-and-software)
 5. [Antivirus](#Antivirus)
