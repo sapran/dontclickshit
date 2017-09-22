@@ -206,9 +206,10 @@ For details about your Linux distribution, refer to the documentation.
 
 ### macOS & Linux
 
-On Linux or macOS **don't use antivirus**. Seriously. Security software comes with security vulnerabilities, it is not more secure than any other piece of code. However, in order to be efficient, antivirus normally requires elevated privileges in the OS. This introduces new risks that outweigh the dangers of getting infected on relatively secure and less popular platforms. If you follow recommendations in this guide, you can install an AV that is not continuously monitoring your OS, and scan your system with it once in a while. Malwarebytes has one of those. https://www.malwarebytes.com/
+On Linux or macOS **don't use antivirus**. Seriously. Security software comes with security vulnerabilities, it is not more secure than any other piece of code. However, in order to be efficient, antivirus normally requires elevated privileges in the OS. This introduces new risks that outweigh the dangers of getting infected on relatively secure and less popular platforms. If you follow recommendations in this guide, you can install an AV that is not continuously monitoring your OS, and scan your system with it once in a while. Malwarebytes has one of those, BitDefender is a more thorogh option.
 
-:wrench: One of such options is Malwarebytes: https://www.malwarebytes.com
+:wrench: Malwarebytes https://www.malwarebytes.com
+:wrench: BitDefender https://www.bitdefender.de
 
 ### Windows
 
