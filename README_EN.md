@@ -188,7 +188,7 @@ brew search wireshark
 brew search gpgtools
 ```
 
-To install Homebrew, follow the official guide: http://brew.sh
+To install Homebrew, follow the official guide: https://brew.sh
 
 Alternatively, to keep third-party apps up to date, use MacInformer or equivalent tool. :exclamation:WARNING: although safer than not using any update mechanism, this kind of software may be invasive and not as secure as Homebrew. So no URL here.
 
