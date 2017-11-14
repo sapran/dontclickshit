@@ -305,7 +305,7 @@ Encrypt your sensitive data before uploading it to the cloud. Remember: there is
 
 ### Use VPN
 
-To protect your traffic data and metadata from network sniffing, use VPN. You can choose from many VPN services providers, such as proXPN or OpenVPN AS. You can install and maintain your own VPN server as well. Always use corporate VPN when working with business data remotely.
+To protect your traffic data and metadata from network sniffing, use Virtual Private Networks. You can choose from many VPN services providers, such as proXPN or PrivateTunnel. You can install and maintain your own VPN server as well. Always use corporate VPN when working with business data remotely.
 	
 :wrench: Personal VPN services ([recommended by Daniel Miessler](https://danielmiessler.com/blog/vpn-recommendations/)):
 
@@ -315,7 +315,9 @@ To protect your traffic data and metadata from network sniffing, use VPN. You ca
 - AzireVPN https://www.azirevpn.com/
 - OVPN.se https://www.ovpn.se/
 
-:bulb: How to setup your own VPN server: https://www.digitalocean.com/community/tutorials/openvpn-access-server-centos
+:bulb: How to setup your own OpenVPN server on Digital Ocean: https://www.digitalocean.com/community/tutorials/openvpn-access-server-centos
+
+:bulb: Algo is a fully automated Ansible-based approach to deploying a personal IPSec VPN server in any major cloud: https://github.com/trailofbits/algo
 
 ## Mobile security
 

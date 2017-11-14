@@ -300,7 +300,7 @@ apt update && apt -y upgrade
 
 ### Користуйтеся VPN
 
-Для того, щоб захистити ваші мережеві дані та метадані від прослуховування, використовуйте VPN (віртуальна приватна мережа). Ви можете вибрати один з багатьох провайдерів послуг VPN, таких як proXPN або PrivateTunnel. Ви можете встановити і підтримувати свій власний VPN-сервер. Під час віддаленої роботи з бізнес-даними, завжди використовуйте корпоративну VPN.
+Для того, щоб захистити ваші мережеві дані та метадані від прослуховування, використовуйте віртуальні приватні мережі (Virtual Private Networks, VPN). Ви можете вибрати один з багатьох провайдерів послуг VPN, таких як proXPN або PrivateTunnel. Ви можете встановити і підтримувати свій власний VPN-сервер. Під час віддаленої роботи з бізнес-даними, завжди використовуйте корпоративну VPN.
 	
 :wrench: Персональні VPN ([рекомендовано Daniel Miessler](https://danielmiessler.com/blog/vpn-recommendations/)):
 
@@ -310,7 +310,9 @@ apt update && apt -y upgrade
 - AzireVPN https://www.azirevpn.com/
 - OVPN.se https://www.ovpn.se/
 
-:bulb: Як налаштувати свій власний VPN-сервер: https://www.digitalocean.com/community/tutorials/openvpn-access-server-centos
+:bulb: Як налаштувати свій власний OpenVPN-сервер в Digital Ocean: https://www.digitalocean.com/community/tutorials/openvpn-access-server-centos
+
+:bulb: Algo – це повністю автоматизований спосіб розгорнути власний сервер IPSec VPN в будь-якому популярному хмарному сервісі за допомогою Ansible: https://github.com/trailofbits/algo
 
 ## Мобільна безпека
 
