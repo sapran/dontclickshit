@@ -346,4 +346,8 @@ apt update && apt -y upgrade
 
 Якщо у вас є що додати або ви знайшли в тексті помилку, напишіть на :email: sapran@protonmail.com або [створіть issue](https://github.com/sapran/dontclickshit/issues/new).
 
-Скомпільовано та підготовлено [Vlad Styran](https://fb.me/vstyran), [Berezha Security](https://berezhasecurity.com), https://blog.styran.com
+## Credits
+
+Цей посібник був би неможливий без допомоги багатьох фахівців галузі кібербезпеки в Україні та за кордоном. Велике спасибі всім, хто зробив внесок у зміст цього документу та пропонував правки та оновлення під час та після його створення. Скомпільовано та підготовлено [Vlad Styran](https://fb.me/vstyran), [Berezha Security](https://berezhasecurity.com), https://blog.styran.com
+
+Special thanks go to Boris "[@jadedsecurity](https://twitter.com/jadedsecurity)" Sverdlik for a great deal of inspiration and coining the "Don't click shit" slogan.
