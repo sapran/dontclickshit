@@ -346,4 +346,4 @@ apt update && apt -y upgrade
 
 Якщо у вас є що додати або ви знайшли в тексті помилку, напишіть на :email: sapran@protonmail.com або [створіть issue](https://github.com/sapran/dontclickshit/issues/new).
 
-Скомпільовано та підготовлено by Vlad Styran, [Berezha Security](https://berezhasecurity.com), https://blog.styran.com
+Скомпільовано та підготовлено [Vlad Styran](https://fb.me/vstyran), [Berezha Security](https://berezhasecurity.com), https://blog.styran.com
