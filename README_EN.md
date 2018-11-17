@@ -126,7 +126,8 @@ Use password manager (password safe) software and follow these rules:
 1. Make sure your master password is strong.
 1. Use a password manager that encrypts password database before storing it in the cloud or synchronizing it between your devices via the network.
 1. Backup your password database often.
-1. For additional layer of protection, use *a manual password salt*: figure out a secret string, keep it in memory, and add it manually to each password stored in the manager application every time you paste it into a login form.  
+
+:bulb: For additional layer of protection, use *a manual password salt*: figure out a secret string, keep it in memory, and add it manually to each password stored in the manager application every time you paste it into a login form.  
 
 :wrench: Examples of good password managers are:
 - 1Pasword https://1password.com
@@ -226,7 +227,11 @@ Choosing antivirus is not easy: 'independent' tests are biased toward the AV ven
 
 Enable and configure the built-in macOS firewall in `System Preferences -> Security & Privacy -> Firewall`. Advanced `Firewall Options...` allow more detailed configuration, such as blocking all incoming connections, configuring ingress and egress filtering for specific applications, and allowing incoming connections to system and signed applications. `Enable stealth mode` if you would like to make your Mac unavailable to any other network client (e.g. to prevent [a recent remote attack over ICMP protocol](https://lgtm.com/blog/apple_xnu_icmp_error_CVE-2018-4407)).
 
-Install and master advanced network protection using one of the custom firewall solutions such as [Little Snitch](https://www.obdev.at/products/littlesnitch/index.html)(commercial) or [LuLu](https://objective-see.com/products/lulu.html)(free & open source).
+Install and master advanced network protection using one of the custom firewall solutions such as
+
+:wrench: [Little Snitch](https://www.obdev.at/products/littlesnitch/index.html)(commercial) or
+
+:wrench: [LuLu](https://objective-see.com/products/lulu.html)(free & open source).
 
 ### Windows
 
