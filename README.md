@@ -229,7 +229,7 @@ apt update && apt -y upgrade
 
 :wrench: [Little Snitch](https://www.obdev.at/products/littlesnitch/index.html)(комерційний) або
 
-:wrench: [LuLu](https: // Objective-see.com/products/lulu.html)(безкоштовний з відкритим кодом).
+:wrench: [LuLu](https://objective-see.com/products/lulu.html)(безкоштовний з відкритим кодом).
 
 ### Windows
 
