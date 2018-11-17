@@ -11,16 +11,17 @@ Original mind map (updated):
 ## Contents
 
 1. [Don't click shit](#dont-click-shit)
-2. [Use passphrases instead of passwords](#use-passphrases-instead-of-passwords)
-3. [Use multi-factor authentication](#use-multi-factor-authentication)
-4. [Operating system and software](#operating-system-and-software)
-5. [Antivirus](#antivirus)
-6. [Backup your data](#backup-your-data)
-7. [Use crypto](#use-crypto)
-8. [Mobile security](#mobile-security)
-9. [Physical security](#physical-security)
-10. [Stay safe!](#stay-safe)
-11. [Credits](#credits)
+1. [Use passphrases instead of passwords](#use-passphrases-instead-of-passwords)
+1. [Use multi-factor authentication](#use-multi-factor-authentication)
+1. [Operating system and software](#operating-system-and-software)
+1. [Antivirus](#antivirus)
+1. [Firewall](#firewall)
+1. [Backup your data](#backup-your-data)
+1. [Use crypto](#use-crypto)
+1. [Mobile security](#mobile-security)
+1. [Physical security](#physical-security)
+1. [Stay safe!](#stay-safe)
+1. [Credits](#credits)
 
 ## Don't click shit
 
@@ -121,13 +122,11 @@ Strong passwords are long, complex, and unique. This means they should be longer
 
 Use password manager (password safe) software and follow these rules:
 
-0. Generate strong random passwords of configurable length (longer than 20 characters) and complexity.
-
+1. Generate strong random passwords of configurable length (longer than 20 characters) and complexity.
 1. Make sure your master password is strong.
-
-2. Use a password manager that encrypts password database before storing it in the cloud or synchronizing it between your devices via the network.
-
-3. Backup your password database often.
+1. Use a password manager that encrypts password database before storing it in the cloud or synchronizing it between your devices via the network.
+1. Backup your password database often.
+1. For additional layer of protection, use *a manual password salt*: figure out a secret string, keep it in memory, and add it manually to each password stored in the manager application every time you paste it into a login form.  
 
 :wrench: Examples of good password managers are:
 - 1Pasword https://1password.com
@@ -209,6 +208,7 @@ For details about your Linux distribution, refer to the documentation.
 On Linux or macOS **don't use antivirus**. Seriously. Security software comes with security vulnerabilities, it is not more secure than any other piece of code. However, in order to be efficient, antivirus normally requires elevated privileges in the OS. This introduces new risks that outweigh the dangers of getting infected on relatively secure and less popular platforms. If you follow recommendations in this guide, you can install an AV that is not continuously monitoring your OS, and scan your system with it once in a while. Malwarebytes has one of those, BitDefender is a more thorogh option.
 
 :wrench: Malwarebytes https://www.malwarebytes.com
+
 :wrench: BitDefender https://www.bitdefender.de
 
 ### Windows
@@ -219,6 +219,22 @@ Choosing antivirus is not easy: 'independent' tests are biased toward the AV ven
 
 - AV-Test.org https://www.av-test.org/en/antivirus/home-windows
 - NSS Labs reports, if you can find any nowadays.
+
+## Firewall
+
+### macOS
+
+Enable and configure the built-in macOS firewall in `System Preferences -> Security & Privacy -> Firewall`. Advanced `Firewall Options...` allow more detailed configuration, such as blocking all incoming connections, configuring ingress and egress filtering for specific applications, and allowing incoming connections to system and signed applications. `Enable stealth mode` if you would like to make your Mac unavailable to any other network client (e.g. to prevent [a recent remote attack over ICMP protocol](https://lgtm.com/blog/apple_xnu_icmp_error_CVE-2018-4407)).
+
+Install and master advanced network protection using one of the custom firewall solutions such as [Little Snitch](https://www.obdev.at/products/littlesnitch/index.html)(commercial) or [LuLu](https://objective-see.com/products/lulu.html)(free & open source).
+
+### Windows
+
+TODO
+
+### Linux
+
+TODO
 
 ## Backup your data
 
