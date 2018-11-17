@@ -227,9 +227,9 @@ apt update && apt -y upgrade
 
 Встановіть та навчіться користуватися одним із спеціалізованих клієнтських фаєрволів, таких як
 
-:wrench: [Little Snitch](https://www.obdev.at/products/littlesnitch/index.html)(комерційний) або
+:wrench: [Little Snitch](https://www.obdev.at/products/littlesnitch/index.html) (комерційний) або
 
-:wrench: [LuLu](https://objective-see.com/products/lulu.html)(безкоштовний з відкритим кодом).
+:wrench: [LuLu](https://objective-see.com/products/lulu.html) (безкоштовний з відкритим кодом).
 
 ### Windows
 
