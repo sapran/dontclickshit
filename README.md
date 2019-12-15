@@ -87,8 +87,10 @@
 :bulb: Для додаткового захисту використовуйте *ручну парольну сіль*: вигадайте секретний рядок, зберігайте його в пам'яті, та додавайте його вручну до кожного пароля, який зберігається в менеджері, кожного разу, коли ви вставляєте його в форму аутентифікації.
 
 :wrench: Прикладами хороших парольних менеджерів є:
-- 1Pasword https://1password.com
-- KeePass http://keepass.info
+- 1Password https://1password.com (non-free)
+- Bitwarden https://bitwarden.com (free & opensource)
+- Dashlane https://bitwarden.com (non-free)
+- KeePassXC https://keepassxc.org/ (free & opensource, DIY cloud sync)
 
 ## Не бажаєте користуватися парольним менеджером? Навчіться вигадувати довгі та складні паролі або парольні фрази
 
@@ -182,8 +184,6 @@
 Для того, щоб захистити ваші мережеві дані та метадані від прослуховування, використовуйте віртуальні приватні мережі (Virtual Private Networks, VPN). Ви можете вибрати один з багатьох провайдерів послуг VPN, таких як ProtonVPN. Ви можете встановити і підтримувати свій власний VPN-сервер. Під час віддаленої роботи з бізнес-даними, завжди використовуйте корпоративну VPN.
 
 :bulb: Algo – розгорнути власний сервер VPN в будь-якому популярному хмарному сервісі: https://github.com/trailofbits/algo
-
-:bulb: Як налаштувати свій власний OpenVPN-сервер в Digital Ocean: https://www.digitalocean.com/community/tutorials/openvpn-access-server-centos
 
 :wrench: Сервіси VPN (порівняльна таблиця): https://thatoneprivacysite.net/#simple-vpn-comparison
 
