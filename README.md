@@ -1,6 +1,6 @@
 # Як не стати кібер-жертвою
 
-[English version](https://github.com/sapran/dontclickshit/blob/master/README_EN.md)
+[English version (out of date)](https://github.com/sapran/dontclickshit/blob/master/README_EN.md)
 
 Постійна адреса: https://github.com/sapran/dontclickshit/
 
@@ -292,25 +292,27 @@ TODO
 
 Використовуйте надійне шифрування "з кінця в кінець" для передачі приватних та конфіденційних даних. Шифрування "з кінця в кінець" гарантує, що ніхто, крім вас і вашого одержувача не може отримати доступ до розмови. Засобами шифрування електронної пошти "з кінця в кінець" є `PGP/GPG`, та `S/MIME`. Програми обміну миттєвими повідомленнями, які здійснюють шифрування "з кінця в кінець":  `Signal`, `WhatsApp`, `iMessage`, `Viber`, `Threema`. В `Facebook Messenger`, `Google Allo`, і `Telegram` є "секретні чати", які можна розглядати як більш безпечний режим, ніж чати за замовчуванням.
 
-:wrench: Шифрування електронної пошти
-
-- GPGTools для Apple Mail та macOS: https://gpgtools.org/
-- OpenPGP у Microsoft Outlook 2016/2013/2010/2007: https://www.encryptomatic.com/openpgp/
-- S/MIME в Outlook Web App: https://support.office.com/en-us/article/Encrypt-messages-by-using-S-MIME-in-Outlook-Web-App-2e57e4bd-4cc2-4531-9a39-426e7c873e26
-
 :wrench: Месенджери, які здійснюють шифрування "з кінця в кінець" за замовчуванням:
 
 - Signal https://whispersystems.org
-- WhatsApp (uses Signal protocol) https://www.whatsapp.com
-- Viber https://www.viber.com
+- Wire https://wire.com
 - Threema https://threema.ch
+- Keybase https://keybase.io
+- ~~WhatsApp https://www.whatsapp.com~~ (Поглинання WhatsApp компанією Facebook призвело до того, що цей месенджер перетворився на генератор метаданих та поведінкової інформації для алгоритмів аналізу даних. Використання не рекомендується.)
+- ~~Viber https://www.viber.com~~ (Цей месенджер міститьт щонайменше 12 інструментів збору метаданих та поведінкової інформації, серед яких Використання не рекомендується.)
 
 :wrench: Месенджери з підтримкою посиленої анонімності:
 	
 - Ricochet https://ricochet.im
 - Retroshare http://retroshare.net
 
-Інструкція з безпечного обміну миттєвими повідомленнями та порівняння рівня безпеки сучасних месенджерів від EFF: https://www.eff.org/secure-messaging-scorecard
+Інструкція з безпечного обміну миттєвими повідомленнями та порівняння рівня безпеки сучасних месенджерів: https://www.securemessagingapps.com
+
+:wrench: Шифрування електронної пошти
+
+- GPGTools для Apple Mail та macOS: https://gpgtools.org/
+- OpenPGP у Microsoft Outlook 2016/2013/2010/2007: https://www.encryptomatic.com/openpgp/
+- S/MIME в Outlook Web App: https://support.office.com/en-us/article/Encrypt-messages-by-using-S-MIME-in-Outlook-Web-App-2e57e4bd-4cc2-4531-9a39-426e7c873e26
 
 ### Шифруйте хмарні дані
 
