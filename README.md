@@ -89,7 +89,7 @@
 :wrench: Прикладами хороших парольних менеджерів є:
 - 1Password https://1password.com (non-free)
 - Bitwarden https://bitwarden.com (free & opensource)
-- Dashlane https://bitwarden.com (non-free)
+- Dashlane https://www.dashlane.com/ (free with limitations or non-free premium)
 - KeePassXC https://keepassxc.org/ (free & opensource, DIY cloud sync)
 
 ## Не бажаєте користуватися парольним менеджером? Навчіться вигадувати довгі та складні паролі або парольні фрази
