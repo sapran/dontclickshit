@@ -1,13 +1,5 @@
 # Як не стати кібер-жертвою
 
-[English version (out of date)](https://github.com/sapran/dontclickshit/blob/master/README_EN.md)
-
-Постійна адреса: https://github.com/sapran/dontclickshit/
-
-Оригінальна майнд-мапа (оновлюється):
-- [Українською](http://www.xmind.net/m/DNRY)
-- [Англійською](http://www.xmind.net/m/raQ4)
-
 ## Зміст
 
 1. [Не натискайте каку](#user-content-не-натискайте-каку)
@@ -372,4 +364,10 @@ TODO
 
 Special thanks go to Boris "[@jadedsecurity](https://twitter.com/jadedsecurity)" Sverdlik for a great deal of inspiration and coining the "Don't click shit" slogan.
 
+[English version (out of date)](https://github.com/sapran/dontclickshit/blob/master/README_EN.md)
 
+Постійна адреса: https://github.com/sapran/dontclickshit/
+
+Оригінальна майнд-мапа (оновлюється):
+- [Українською](http://www.xmind.net/m/DNRY)
+- [Англійською](http://www.xmind.net/m/raQ4)
