@@ -374,6 +374,6 @@ If you have something add or found an error in the text, let me know: via email 
 
 ## Credits
 
-This guide wouldn't exist without the help of many security professionals in Ukraine and abroad. Big thanks to everyone who contributed to the contents of this document and proposed the edits and updates along the course of its creation. Compiled and drafted by [Vlad Styran](https://fb.me/vstyran), [Berezha Security](https://berezhasecurity.com), https://blog.styran.com.
+This guide wouldn't exist without the help of many security professionals in Ukraine and abroad. Big thanks to everyone who contributed to the contents of this document and proposed the edits and updates along the course of its creation. Compiled and drafted by [Vlad Styran](https://fb.me/vstyran), [BSG](https://bsg.tech/), https://blog.styran.com.
 
 Special thanks go to Boris "[@jadedsecurity](https://twitter.com/jadedsecurity)" Sverdlik for a great deal of inspiration and coining the "Don't click shit" slogan.
