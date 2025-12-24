@@ -11,17 +11,26 @@ Original mind map (updated):
 ## Contents
 
 1. [Don't click shit](#dont-click-shit)
+1. [AI-Powered Threats and Deepfakes](#ai-powered-threats-and-deepfakes)
 1. [Use passphrases instead of passwords](#use-passphrases-instead-of-passwords)
 1. [Use multi-factor authentication](#use-multi-factor-authentication)
+1. [Cryptocurrency and Digital Asset Security](#cryptocurrency-and-digital-asset-security)
 1. [Operating system and software](#operating-system-and-software)
 1. [Antivirus](#antivirus)
 1. [Firewall](#firewall)
 1. [Backup your data](#backup-your-data)
+1. [Ransomware Defense and Recovery](#ransomware-defense-and-recovery)
 1. [Use crypto](#use-crypto)
 1. [Mobile security](#mobile-security)
+1. [IoT and Smart Home Security](#iot-and-smart-home-security)
 1. [Physical security](#physical-security)
+1. [Incident Response: What to Do When Compromised](#incident-response-what-to-do-when-compromised)
 1. [Stay safe!](#stay-safe)
 1. [Credits](#credits)
+
+**Last updated: December 2024**
+
+**Last updated: December 2024**
 
 ## Don't click shit
 
@@ -73,6 +82,95 @@ Pop-ups can be dangerous in many ways: some result in installing malicious SSL c
 ### Suspicious devices
 
 Do not insert flash drives, CD/DVD, external HDDs etc. into your computer unless you explicitly trust their origin. There are techniques of hacking into your computer before you open files on a flash drive and way before your antivirus scans them. If you found it outside or inside the office, if you received it by mail or delivery, if a stranger gives it to you asking to print out a document or just attach it to a PC – it is likely to be malicious. Only trust your own devices and proceed with caution when dealing with devices received from people you work with or otherwise collaborate.
+
+
+## AI-Powered Threats and Deepfakes
+
+### What are AI-powered threats?
+
+Artificial intelligence has made it easier for attackers to create highly convincing fake content and personalized attacks at scale. These threats are harder to detect than traditional scams because they can mimic real people's voices, faces, and writing styles with remarkable accuracy.
+
+### Deepfake video and audio attacks
+
+Deepfakes are AI-generated videos or audio recordings that make it appear someone said or did something they didn't. Attackers use these for:
+
+- **CEO fraud**: Impersonating executives to authorize fraudulent wire transfers
+- **Family emergency scams**: Faking a loved one's voice to request urgent money
+- **Blackmail and extortion**: Creating compromising fake videos
+- **Political manipulation**: Spreading disinformation
+
+:bulb: **How to spot deepfakes:**
+- Unnatural blinking patterns or facial movements
+- Inconsistent lighting or shadows
+- Audio that doesn't sync perfectly with lip movements
+- Background artifacts or glitches
+
+### Modern Social Engineering Techniques
+
+Beyond traditional phishing, attackers use sophisticated psychological manipulation:
+
+**Vishing (Voice Phishing)**
+- Calls impersonating IT support, banks, government agencies
+- "Your account has been compromised, we need to verify..."
+- Fake "fraud department" calls asking for verification
+- **Defense**: Hang up and call official numbers from company website
+
+**Business Email Compromise (BEC)**
+- Executive impersonation: "CEO" emails requesting urgent wire transfer
+- Invoice fraud: Fake invoices from "vendors" with changed bank details
+- W-2 scams: Fake HR requests for employee tax information
+- **Defense**: Verify through secondary channel (call, in-person), never email alone
+
+**Social Media Intelligence Gathering (OSINT)**
+- Attackers research you on Facebook, LinkedIn, Instagram
+- Learn about family, work, interests, vacation plans
+- Use information to create targeted attacks
+- **Defense**: Review privacy settings, limit public posts, be aware of oversharing
+
+**Romance and Investment Scams**
+- Fake profiles building long-term relationships
+- "Pig butchering": Gaining trust before investment scam
+- Cryptocurrency and forex trading scams promising guaranteed returns
+- **Defense**: Never send money to people you haven't met, research investments independently
+
+**Pretexting**
+- Creating elaborate false scenarios to extract information
+- "I'm calling from the power company about your account..."
+- Building trust over multiple interactions
+- **Defense**: Verify caller identity through official channels
+
+:exclamation: **Key principle**: Urgency + Authority + Fear = Red flags. Legitimate organizations don't pressure immediate action.
+
+- Unusual skin texture or hair rendering
+
+### AI-generated phishing
+
+Modern AI can write phishing emails with perfect grammar, personalized content, and convincing context. These emails no longer have the obvious spelling errors and awkward phrasing of the past.
+
+**Defense strategies:**
+- Never trust email content quality as a security indicator
+- Verify requests through a different communication channel (call, in-person, separate message)
+- Establish code words with family and colleagues for sensitive requests
+- Be especially suspicious of urgent financial or credential requests
+
+### Protection measures
+
+1. **Establish verification protocols**
+   - Create secret code words with family members for emergencies
+   - Implement multi-step approval for financial transactions
+   - Verify unusual requests by calling known phone numbers (not numbers in suspicious emails)
+
+2. **Out-of-band confirmation**
+   - If you receive a suspicious email, contact the sender through a different method
+   - Don't rely on callback numbers or links provided in suspicious messages
+   - For video calls with unusual requests, ask questions only the real person would know
+
+3. **Stay informed**
+   - Keep up with current deepfake detection techniques
+   - Educate family and colleagues about these threats
+   - Report suspected deepfakes to relevant authorities
+
+:wrench: Be aware that deepfake technology is evolving rapidly - trust verification processes over your senses.
 
 ## Use passphrases instead of passwords
 
@@ -149,9 +247,126 @@ Most respected online services allow two-factor authentication. Enable it using 
 
 :wrench: Large collection of services that support two-factor authentication: https://twofactorauth.org
 
+The best second factor for authentication is a security key or hardware token.
+
+:wrench: Most popular security keys:
+
+- YubiKey: https://www.yubico.com/products/yubikey-hardware/
+- Google Titan Security Key: https://store.google.com/product/titan_security_key
+- Thetis FIDO U2F Security Key: https://thetismedia.com/products/thetis-fido-u2f-security-key
+- Feitian MultiPass K16: https://www.ftsafe.com/Products/FIDO/BLE/K16
+- Ledger Nano S Plus / Nano X: https://shop.ledger.com/ (FIDO2/WebAuthn support)
+
+:wrench: Convenient apps for two-factor authentication:
+
+- Google Authenticator for Android: https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2
+- Google Authenticator for iOS: https://apps.apple.com/us/app/google-authenticator/id388497605
+- Authy: https://authy.com/
+- Microsoft Authenticator: https://www.microsoft.com/en-us/account/authenticator
+- Duo Mobile: https://duo.com/product/trusted-users/two-factor-authentication/duo-mobile
+
 ### Avoid SMS
 
 Prefer using `Google Authenticator`, physical token, or mobile app verification techniques. Avoid SMS one-time passwords wherever possible.
+
+
+## Cryptocurrency and Digital Asset Security
+
+### Why cryptocurrency security matters
+
+Cryptocurrencies and digital assets present unique security challenges. Unlike traditional banking, there's no customer service to call if your funds are stolen, and transactions cannot be reversed. You are your own bank, which means you're fully responsible for security.
+
+### Hardware wallets for storage
+
+The safest way to store significant cryptocurrency holdings is using a hardware wallet - a physical device that keeps your private keys offline.
+
+:wrench: **Recommended hardware wallets:**
+- Ledger Nano X / Nano S Plus: https://shop.ledger.com/
+- Trezor Model T / Trezor One: https://trezor.io/
+- SafePal S1: https://www.safepal.com/
+
+**Critical: Your seed phrase (recovery phrase) is everything**
+- Never store it digitally (no photos, no cloud storage, no password managers)
+- Write it on paper or use metal backup solutions
+- Store copies in multiple secure physical locations
+- Never share it with anyone - legitimate companies will never ask for it
+
+### Common cryptocurrency scams
+
+**1. Fake wallet applications**
+- Malicious apps that look like legitimate wallets in app stores
+- Always download from official websites, verify developer signatures
+- Double-check app names and developers before installing
+
+**2. Phishing websites**
+- Sites that mimic popular exchanges or wallets: `myetherwa11et.com`, `metamask.i0`
+- Always type URLs manually or use bookmarks
+- Verify SSL certificates and correct domain spelling
+
+**3. Clipboard hijacking malware**
+- Malware that changes wallet addresses when you copy/paste
+- Always verify the full address after pasting before sending funds
+- Send a small test transaction first for large transfers
+
+**4. Rug pulls and fake tokens**
+- Scam projects that take investor money and disappear
+- Research projects thoroughly before investing
+- Check for audited smart contracts and verified team members
+- Be suspicious of guaranteed returns or "too good to be true" yields
+
+**5. Social media impersonation**
+- Fake "giveaway" posts impersonating celebrities or companies
+- Direct messages offering investment advice or "help"
+- Rule: No legitimate entity will ever ask you to send crypto to receive more crypto
+
+### Best practices for crypto security
+
+1. **Use dedicated devices for large holdings**
+   - Consider a separate computer or phone for crypto transactions
+   - Never access crypto wallets on public WiFi without VPN
+
+2. **Verify addresses thoroughly**
+   - Check first and last several characters of addresses
+   - Use address book/contacts features when available
+   - Be aware of address poisoning attacks (similar-looking addresses)
+
+3. **Test with small amounts first**
+   - Send small test transactions before large transfers
+   - Verify receipt on block explorer before sending full amount
+
+4. **Enable all available security features**
+   - Transaction confirmations on hardware wallets
+   - Whitelisting addresses where possible
+   - Multi-signature wallets for large holdings
+
+5. **Understand what you're signing**
+   - Read transaction details carefully before approving
+   - Be especially cautious with smart contract interactions
+   - Never sign blind transactions or approve unlimited token spending
+
+6. **Keep software updated**
+   - Update wallet firmware and software regularly
+   - Use official update channels only
+   - Verify update authenticity before installing
+
+### NFT-specific security
+
+**Blind signing attacks**
+- Malicious sites that trick you into signing transactions that transfer your NFTs
+- Always review what you're signing in your wallet
+- Use wallets that clearly display transaction details
+
+**Malicious smart contract approvals**
+- Some interactions request unlimited access to your wallet
+- Revoke unnecessary approvals regularly using tools like Revoke.cash or Etherscan's token approval feature
+- Only approve specific amounts when possible
+
+:wrench: **Useful tools:**
+- Block explorers: Etherscan.io, Blockchain.com, BscScan.com
+- Token approval management: Revoke.cash, Etherscan token approvals
+- Scam detection: CertiK Skynet, GoPlus Security
+
+:exclamation: **Remember**: If you lose your seed phrase or private keys, your funds are permanently lost. If someone else gains access to them, your funds can be stolen instantly with no recourse.
 
 ## Operating system and software
 
@@ -169,9 +384,11 @@ Turn on `Auto-Update` in your Windows OS. For more details refer to [the officia
 
 Make sure your Windows Update is [configured to check for updates for all Microsoft products, including MS Office](https://www.winhelp.us/configure-automatic-updates-in-windows.html).
 
-Update third party software regularly or automatically. For that, use `Flexera` (formerly Secunia) PSI or an equivalent tool that checks your third party applications for updates and allows you to update them automatically.
+Update third party software regularly or automatically. Use one of these tools to check and update your applications:
 
-:wrench: Flexera PSI: http://www.flexerasoftware.com/enterprise/products/software-vulnerability-management/personal-software-inspector/
+:wrench: Windows Package Manager (winget) - Built into Windows 11+: `winget upgrade --all`
+:wrench: Patch My PC: https://patchmypc.com/home-updater
+:wrench: SUMo (Software Update Monitor): https://www.kcsoftwares.com/sumo/
 
 ### macOS
 
@@ -198,6 +415,64 @@ Modern Linux distributions allow you to configure an auto-update with OS tools, 
 
 ```bash
 apt update && apt -y upgrade
+
+### Supply Chain and Software Security
+
+Modern cyberattacks increasingly target the software supply chain - the complex network of vendors, libraries, and dependencies that make up the software you use.
+
+**What are supply chain attacks?**
+
+Attackers compromise trusted software before it reaches you:
+- **SolarWinds (2020)**: Attackers inserted malware into software updates affecting 18,000+ organizations
+- **NPM/PyPI attacks**: Malicious packages with names similar to popular libraries
+- **Browser extension takeovers**: Legitimate extensions sold to malicious actors
+- **Compromised software updates**: Fake updates that install malware
+
+**Protection for end users:**
+
+1. **Download from official sources only**
+   - Use official websites, not third-party download sites
+   - Verify URLs carefully before downloading
+   - Avoid "cracked" or "pirated" software (often contains malware)
+
+2. **Verify software integrity**
+   - Check digital signatures on downloaded files
+   - Verify checksums (SHA-256 hashes) when provided
+   - On macOS: Software must be notarized by Apple
+   - On Windows: Look for valid code-signing certificates
+
+3. **Check software reputation**
+   - Read recent reviews (not just star ratings)
+   - Look for active development (recent updates)
+   - Be wary of abandoned software (no updates in 2+ years)
+   - Research the developer/company
+
+4. **Use official package managers**
+   - **Windows**: Microsoft Store, winget (official)
+   - **macOS**: App Store, Homebrew (verify formulae)
+   - **Linux**: Distribution repositories (apt, dnf, pacman)
+   - Avoid third-party PPAs unless from well-known, trusted sources
+
+5. **Review permissions and access**
+   - Check what permissions apps request
+   - Be suspicious of excessive permissions (why does a calculator need camera access?)
+   - Review browser extension permissions carefully
+
+**For developers:**
+
+- Pin dependency versions in lock files
+- Regularly audit dependencies: `npm audit`, `pip-audit`, Snyk
+- Use Software Bill of Materials (SBOM) tools
+- Verify package signatures before installation
+- Monitor for dependency confusion attacks
+
+:wrench: **Useful tools:**
+- Virustotal: https://virustotal.com (scan files before running)
+- Snyk: https://snyk.io (dependency scanning)
+- Socket: https://socket.dev (npm package security)
+
+:exclamation: **Remember**: Trust is not transitive. Just because you trust a vendor doesn't mean you can trust all their dependencies.
+
 ```
 
 For details about your Linux distribution, refer to the documentation.
@@ -225,7 +500,7 @@ Choosing antivirus is not easy: 'independent' tests are biased toward the AV ven
 
 ### macOS
 
-Enable and configure the built-in macOS firewall in `System Preferences -> Security & Privacy -> Firewall`. Advanced `Firewall Options...` allow more detailed configuration, such as blocking all incoming connections, configuring ingress and egress filtering for specific applications, and allowing incoming connections to system and signed applications. `Enable stealth mode` if you would like to make your Mac unavailable to any other network client (e.g. to prevent [a recent remote attack over ICMP protocol](https://lgtm.com/blog/apple_xnu_icmp_error_CVE-2018-4407)).
+Enable and configure the built-in macOS firewall in `System Settings -> Privacy & Security -> Firewall` (or `System Preferences -> Security & Privacy -> Firewall` on older macOS). Advanced `Firewall Options...` allow more detailed configuration, such as blocking all incoming connections, configuring ingress and egress filtering for specific applications, and allowing incoming connections to system and signed applications. `Enable stealth mode` if you would like to make your Mac unavailable to any other network client (e.g. to prevent [a recent remote attack over ICMP protocol](https://lgtm.com/blog/apple_xnu_icmp_error_CVE-2018-4407)).
 
 Install and master advanced network protection using one of the custom firewall solutions such as
 
@@ -235,11 +510,36 @@ Install and master advanced network protection using one of the custom firewall 
 
 ### Windows
 
-TODO
+To enable the firewall in Windows, follow these steps:
+
+1. Open `Control Panel`.
+2. Navigate to `System and Security`.
+3. Click on `Windows Defender Firewall`.
+4. In the left panel, select `Turn Windows Defender Firewall on or off`.
+5. Enable the firewall for the desired network types (private, public) by selecting `Turn on Windows Defender Firewall`.
+6. Save changes by clicking `OK`.
 
 ### Linux
 
-TODO
+To activate the firewall on Linux, depending on the distribution, you can use the following tools:
+
+1. UFW (Ubuntu Firewall)
+    - Installation: `sudo apt install ufw`
+    - Enable: `sudo ufw enable`
+2. Firewalld (Fedora, CentOS)
+    - Installation: `sudo dnf install firewalld`
+    - Enable: `sudo systemctl enable --now firewalld`
+3. Iptables (For most distributions)
+    - Usually pre-installed.
+    - Configuration: Edit rules using `iptables` commands.
+4. nftables (Modern alternative to Iptables)
+    - Installation: Usually pre-installed.
+    - Configuration: Edit rules using `nft` commands.
+5. Gufw (Graphical interface for UFW)
+    - Installation: `sudo apt install gufw`
+    - Enable: Launch through graphical interface.
+
+Each tool has its own features and configurations. The choice depends on your system and needs.
 
 ## Backup your data
 
@@ -260,6 +560,205 @@ Select and use a [third party backup software](http://www.techradar.com/news/sof
 Linux users have many backup mechanisms at their disposal: from tar to rsync remotely to a file share. Less technically savvy users can choose from [more user-friendly tools](http://www.nuxified.org/blog/easy-linux-backup-software-time-machine-functionality/).
 
 You can backup your data by putting it to a cloud drive such as `Dropbox`, `iCloud Drive`, `Google Drive` etc. Don't forget to [encrypt data](#encrypt-cloud-data) before uploading it though.
+
+
+## Ransomware Defense and Recovery
+
+### Understanding modern ransomware
+
+Ransomware is malicious software that encrypts your files and demands payment for the decryption key. Modern ransomware attacks have evolved into sophisticated operations:
+
+- **Ransomware-as-a-Service (RaaS)**: Criminal organizations rent out ransomware to affiliates
+- **Double extortion**: Files are encrypted AND stolen, with threats to publish sensitive data
+- **Triple extortion**: Adding DDoS attacks or contacting your clients/partners to increase pressure
+
+### Prevention strategies
+
+**1. Maintain offline backups** (3-2-1 rule)
+- **3** copies of your data
+- **2** different storage types (external drive + cloud, for example)
+- **1** offsite/offline copy (disconnected from network)
+- Keep backup drives physically disconnected when not in use
+- Test restoration regularly to ensure backups work
+
+**2. Disable macros by default**
+
+### Cloud Security and Misconfiguration
+
+Cloud storage is convenient but introduces unique security risks if not properly configured.
+
+**Common cloud misconfigurations:**
+
+1. **Public access to private data**
+   - S3 buckets, Azure Blob storage accidentally set to public
+   - Google Drive/Dropbox folders shared with "anyone with the link"
+   - Check sharing settings regularly
+
+2. **Weak access controls**
+   - Overly permissive IAM roles
+   - Shared accounts instead of individual credentials
+   - No multi-factor authentication on cloud accounts
+
+3. **Hardcoded credentials**
+   - API keys, passwords committed to Git repositories
+   - Credentials in configuration files uploaded to cloud
+   - Use environment variables or secret managers instead
+
+**Best practices for cloud security:**
+
+1. **Enable versioning**
+   - Recover from accidental deletions or ransomware
+   - Available in AWS S3, Google Cloud Storage, Azure Blob
+
+2. **Use bucket/container policies**
+   - Explicitly deny public access by default
+   - Grant minimum necessary permissions
+   - Regularly audit access logs
+
+3. **Enable access logging**
+   - Track who accessed what and when
+   - Set up alerts for unusual access patterns
+   - Required for forensics if breached
+
+4. **Encrypt at rest and in transit**
+   - Use cloud provider encryption (AWS KMS, Azure Key Vault)
+   - Or client-side encryption before upload (Cryptomator, Boxcryptor)
+   - Always use HTTPS/TLS for transfers
+
+5. **Repository security (GitHub, GitLab, etc.)**
+   - Never commit secrets to Git
+   - Use `.gitignore` for sensitive files (`.env`, `config.json`, `credentials.json`)
+   - Scan commits with git-secrets or TruffleHog
+   - If secrets exposed: rotate immediately, assume compromised
+
+:wrench: **Tools to prevent secret leaks:**
+- git-secrets: https://github.com/awslabs/git-secrets
+- TruffleHog: https://github.com/trufflesecurity/trufflehog
+- GitHub secret scanning (automatic for public repos)
+
+:exclamation: **Remember**: Once data is on the internet, assume it's permanent. Be extremely careful with cloud sharing.
+
+- Most ransomware spreads through Office document macros
+- Only enable macros for documents from absolutely trusted sources
+- Consider blocking macros organization-wide
+
+**3. Keep systems and software updated**
+- Many ransomware attacks exploit known vulnerabilities
+- Enable automatic updates where possible
+- Prioritize security patches
+
+**4. Use application whitelisting**
+- Only allow approved applications to run
+- Prevents unauthorized ransomware executables from launching
+- Available through Windows Defender Application Control or third-party tools
+
+**5. Network segmentation**
+- Separate critical systems on different network segments
+- Limits ransomware spread across your network
+- Use VLANs or physical separation for important data
+
+### Early detection signs
+
+Catch ransomware before it's too late:
+
+:exclamation: **Warning signs:**
+- Unknown file extensions appearing (`.locked`, `.encrypted`, `.crypted`)
+- Inability to open previously accessible files
+- Ransom notes appearing (`README.txt`, `HOW_TO_DECRYPT.html`)
+- Unusual CPU or disk activity when system should be idle
+- Antivirus or security tools being disabled
+- Unfamiliar processes running in Task Manager
+
+### If you're infected - immediate response
+
+:exclamation: **Critical first steps:**
+
+1. **Disconnect immediately** (within seconds)
+   - Unplug Ethernet cable
+   - Disable WiFi
+   - Turn off mobile hotspot
+   - DO NOT turn off the computer yet (may lose evidence)
+
+2. **Disconnect external storage**
+   - Unplug all USB drives, external HDDs
+   - Disconnect network-attached storage (NAS)
+   - Prevents ransomware from spreading to backups
+
+3. **Document everything**
+   - Take photos of ransom notes with your phone
+   - Screenshot any error messages
+   - Note the time you discovered the infection
+   - Document what you were doing when it happened
+
+4. **Do NOT pay the ransom**
+   - No guarantee you'll get your files back
+   - Funds criminal organizations
+   - May mark you as a willing payer for future attacks
+   - Approximately 50% of victims who pay don't get their data back
+
+### Recovery procedures
+
+**Step 1: Identify the ransomware strain**
+
+:wrench: **ID Ransomware**: https://id-ransomware.malwarehunter.net/
+- Upload ransom note or encrypted file sample
+- Identifies the specific ransomware variant
+- Important for finding decryption tools
+
+**Step 2: Check for decryption tools**
+
+:wrench: **No More Ransom**: https://www.nomoreransom.org/
+- Free decryption tools for many ransomware strains
+- Partnership between law enforcement and security companies
+- New decryptors added regularly
+
+**Step 3: Report to authorities**
+
+Always report ransomware attacks:
+- **United States**: IC3.gov (FBI Internet Crime Complaint Center)
+- **European Union**: Europol's No More Ransom initiative  
+- **United Kingdom**: Action Fraud (0300 123 2040)
+- **Your local cybercrime division**
+
+**Step 4: Clean and restore**
+
+1. **Complete system wipe**
+   - Ransomware may leave backdoors
+   - Reinstall operating system from scratch
+   - Don't just delete visible malware
+
+2. **Restore from clean backups**
+   - Use backups from before the infection
+   - Verify backup integrity before restoring
+   - Scan restored files with updated antivirus
+
+3. **Change all passwords**
+   - Assume credentials may have been stolen
+   - Use different device to change passwords
+   - Enable 2FA on all accounts
+
+### Immutable backups
+
+For critical data, consider immutable (write-once) backup solutions:
+
+- **Cloud solutions**: AWS S3 Object Lock, Azure Immutable Blob Storage
+- **Hardware solutions**: WORM (Write Once Read Many) drives
+- **Software solutions**: Veeam immutable backups, Acronis Cyber Protect
+
+These prevent ransomware from encrypting or deleting your backups even if it gains access to backup systems.
+
+### Business-specific considerations
+
+If this is a business/work computer:
+
+1. **Immediately notify IT/security team**
+2. **Don't attempt solo recovery** - may destroy forensic evidence
+3. **Activate incident response plan**
+4. **Consider hiring cybersecurity professionals**
+5. **Check cyber insurance policy** - may cover recovery costs
+6. **Prepare for potential regulatory notification** - data breach laws may apply
+
+:bulb: **Prevention is infinitely cheaper than recovery**. A good backup strategy is your best defense against ransomware.
 
 ## Use crypto
 
@@ -350,6 +849,51 @@ If `Android`, then `Google`. Only direct support by OS manufacturer can guarante
 
 Don't `root` your phone. Use only authorized application repositories e.g. Google Play and Apple AppStore. Don't download or install 'emergency security updates' coming from sources other than software manufacturer.
 
+
+### SIM Swapping Attacks
+
+**What is SIM swapping?**
+An attacker convinces your mobile carrier to transfer your phone number to a SIM card they control, bypassing SMS-based two-factor authentication.
+
+**Why it's dangerous:**
+- Attackers receive your SMS codes
+- Can reset passwords to email, banking, crypto accounts
+- High-profile victims include Twitter CEO Jack Dorsey
+
+**Protection measures:**
+
+1. **Contact your carrier - request SIM protection:**
+   - T-Mobile: Account Takeover Protection
+   - AT&T: Extra Security (passcode required for SIM changes)
+   - Verizon: Number Lock feature
+   - Other carriers: Ask about "port freeze" or "SIM PIN"
+
+2. **Create a carrier PIN/password:**
+   - Different from your account password
+   - Required for any SIM or port requests
+   - Make it complex and unique
+
+3. **Never use SMS for 2FA on critical accounts:**
+   - Use authenticator apps (Google Authenticator, Authy)
+   - Use hardware security keys (YubiKey, Google Titan)
+   - SMS is the weakest form of 2FA
+
+4. **Monitor for warning signs:**
+   - Sudden loss of cellular service
+   - Notifications about SIM changes you didn't request
+   - Unable to make calls but WiFi works
+
+**If you're targeted:**
+
+1. Contact carrier immediately to regain control
+2. Contact your bank and financial institutions
+3. Change passwords on all critical accounts (from a secure device)
+4. Enable 2FA on accounts that didn't have it
+5. File a police report (needed for financial recovery)
+6. Monitor accounts for fraudulent activity
+
+:exclamation: SIM swapping is a federal crime but hard to prosecute. Prevention is critical.
+
 ## Physical security
 
 Keep your stuff where you can see or control it. Your computer and gadgets require the same level of physical security you maintain for your credit cards and apartment/car keys. :exclamation:Remember: if an attacker can get close to your PC without you noticing, most probably he will succeed in complete OS takeover with very little effort. Keeping user session locked can help, but there are modern attacks which it cannot protect you against.
@@ -363,6 +907,276 @@ Use separate computers for business and financial operations and activities that
 :bulb: In some authoritarian countries, you may *be asked* to provide a password to your encrypted information at the border and at the airport. When crossing the borders of such states, take advantage of the advice: ask the person you trust (preferably the lawyer) to change your password before leaving and give it to you only when you complete a trip. Repeat the procedure on the reverse path.
 
 ## Stay safe!
+
+
+## IoT and Smart Home Security
+
+### Understanding IoT risks
+
+Internet of Things (IoT) devices - smart cameras, doorbells, speakers, thermostats, TVs - are often the weakest link in home security.
+
+**Common vulnerabilities:**
+- Default passwords rarely changed
+- Unpatched firmware with known security flaws
+- Always-on microphones and cameras (privacy concerns)
+- Unsecured communication protocols
+- No encryption for data transmission
+
+### Securing common smart devices
+
+**Smart Cameras and Doorbells (Ring, Nest, Arlo, Wyze)**
+- Change default password immediately
+- Enable two-factor authentication
+- Disable remote access if not needed
+- Cover cameras when not in use (or use privacy shutters)
+- Check for firmware updates monthly
+- Review who has access to shared cameras
+
+**Smart Speakers (Alexa, Google Home, Siri)**
+- Disable microphone when not needed (physical button)
+- Review voice recording settings and delete history
+- Don't link to sensitive accounts (banking)
+- Be aware recordings may be reviewed by humans
+- Place away from private conversation areas
+
+**Smart TVs**
+- Disable ACR (Automatic Content Recognition) tracking
+- Cover built-in cameras with tape
+- Review privacy settings
+- Don't sign into sensitive accounts on TV browsers
+- Disconnect from internet if only using for streaming devices
+
+**Smart Locks**
+- Use locks with local backup (physical key)
+- Change default access codes
+- Regularly review access logs
+- Disable remote unlock if not needed
+- Ensure batteries are fresh (lockouts are frustrating)
+
+### Router security (critical!)
+
+Your router is the gateway to all your devices. Secure it properly:
+
+**Essential steps:**
+
+1. **Change default admin password**
+   - Default credentials are publicly available online
+   - Use a strong unique password
+   - Write it down and store securely offline
+
+2. **Update router firmware**
+   - Check manufacturer website quarterly
+   - Enable automatic updates if available
+   - Old firmware = known vulnerabilities
+
+3. **Disable WPS (WiFi Protected Setup)**
+   - Convenient but easily exploited
+   - Push-button WPS can be brute-forced in hours
+
+4. **Use WPA3 encryption** (or WPA2 if WPA3 unavailable)
+   - Never use WEP (completely broken)
+   - Avoid WPA if possible (has vulnerabilities)
+
+5. **Change default SSID (network name)**
+   - Default SSIDs reveal router model
+   - Don't use personally identifiable info ("Smith Family WiFi")
+   - Makes targeted attacks harder
+
+6. **Disable remote management**
+   - Unless you specifically need it
+   - Reduces attack surface
+   - Manage router locally only
+
+7. **Create a guest network**
+   - Separate network for visitors
+   - Different password than main network
+   - No access to your devices
+
+### Network segmentation for IoT
+
+**Why segment your network?**
+- IoT devices can't access your computers/phones
+- If one device is compromised, attacker is isolated
+- Critical devices protected from IoT vulnerabilities
+
+**Implementation options:**
+
+1. **Guest WiFi for all IoT devices** (easiest)
+   - Put all smart devices on guest network
+   - Keep computers and phones on main network
+   - Requires router with guest network support
+
+2. **VLAN segmentation** (advanced)
+   - Separate virtual networks on same physical network
+
+## Incident Response: What to Do When Compromised
+
+### Recognizing you've been compromised
+
+**Computer/device indicators:**
+- Unusually slow performance or high CPU usage when idle
+- Programs crashing frequently or unexpected reboots
+- Unknown programs in startup or task manager
+- Browser homepage/settings changed without your action
+- Antivirus or security tools disabled
+- Webcam light activating unexpectedly
+- Pop-ups appearing when browser is closed
+
+**Account indicators:**
+- Password no longer works or was changed
+- Friends report receiving spam from your accounts
+- Unfamiliar emails in your sent folder
+- Unknown devices logged into your accounts
+- Two-factor authentication prompts you didn't initiate
+- Alerts about logins from strange locations
+
+**Financial indicators:**
+- Unauthorized transactions or purchases
+- Unknown subscriptions or recurring charges
+- Cryptocurrency wallet balances changed
+- Credit card charges you didn't make
+
+### Immediate response protocol
+
+**First 5 minutes - STOP THE BLEEDING:**
+
+1. **Disconnect from internet immediately**
+   - Unplug Ethernet cable OR disable WiFi
+   - Turn off mobile data
+   - DO NOT turn off the computer (may lose evidence)
+
+2. **Disconnect external storage**
+   - Unplug USB drives, external HDDs
+   - Prevents malware spread to backups
+
+3. **Document everything**
+   - Take photos with phone of any ransom notes, error messages
+   - Note the exact time you discovered the issue
+   - Write down what you were doing when it happened
+
+**Next 15-60 minutes - ASSESS AND CONTAIN:**
+
+1. **From a DIFFERENT, clean device:**
+   - Change passwords for critical accounts (email, banking, work)
+   - Enable 2FA on all accounts if not already enabled
+   - Contact your bank/credit card companies about potential fraud
+
+2. **Notify relevant parties:**
+   - If work computer: Immediately inform IT/security team
+   - If personal: Notify family members, close contacts
+   - Don't attempt solo recovery on work systems
+
+3. **Assess the damage:**
+   - What sensitive data is on the compromised device?
+   - What accounts were logged in?
+   - Do you have recent backups?
+
+### Recovery steps
+
+**For malware/virus infections:**
+
+1. Boot into Safe Mode (if possible)
+2. Run full antivirus scan with updated definitions
+3. Use specialized removal tools:
+   - Malwarebytes: https://www.malwarebytes.com
+   - HitmanPro
+   - ESET Online Scanner
+4. Check for malicious browser extensions
+5. Reset browser settings to defaults
+6. If severe: Complete system wipe and OS reinstall
+
+**For account compromise:**
+
+1. Change password from clean device
+2. Enable or reset two-factor authentication
+3. Review account activity logs thoroughly
+4. Revoke access for connected apps and services
+5. Check for email forwarding rules (common attacker tactic)
+6. Review and update account recovery options
+7. Notify contacts if your account sent spam
+
+**For ransomware:**
+- See the dedicated [Ransomware Defense and Recovery](#ransomware-defense-and-recovery) section above
+
+### Reporting to authorities
+
+**Always report these incidents:**
+- Ransomware attacks
+- Identity theft
+- Financial fraud over $1000
+- Stalking or harassment
+- Child exploitation material
+- Corporate data breaches
+
+**Where to report:**
+
+- **Ukraine**: Кіберполіція України - https://cyberpolice.gov.ua
+- **United States**: IC3.gov (FBI), IdentityTheft.gov (FTC)
+- **European Union**: Europol's EC3
+- **United Kingdom**: Action Fraud - 0300 123 2040
+- **Canada**: Canadian Anti-Fraud Centre
+- **Australia**: ReportCyber - https://www.cyber.gov.au
+
+**When to hire professionals:**
+- Business systems compromised
+- Suspected advanced persistent threat (APT)
+- Data breach involving customer/employee data
+- Legal or compliance requirements
+- Unable to remove infection after multiple attempts
+- Need forensic evidence for legal action
+
+### Prevention through preparation
+
+**Create your incident response kit NOW:**
+
+1. **Emergency contact list (keep offline):**
+   - Bank phone numbers
+   - Credit card company numbers
+   - IT support contact
+   - Cybersecurity incident response firm
+   - Local police cybercrime unit
+
+2. **Recovery tools:**
+   - Bootable USB with OS installer
+   - Antivirus rescue disk
+   - Backup of critical data (tested recently)
+   - Password manager backup/recovery codes
+   - Software licenses and activation keys
+
+3. **Documentation:**
+   - List of all your important accounts
+   - Device serial numbers and purchase receipts
+   - Insurance policy information (cyber insurance if you have it)
+   - Baseline system configurations
+
+:bulb: **Remember**: The best incident response is incident prevention. Maintain backups, use strong authentication, keep systems updated.
+
+   - Requires managed switch or advanced router
+   - Best security but more complex
+
+3. **Separate physical router** (intermediate)
+   - Dedicated router for IoT devices
+   - Completely isolated network
+   - Simple but requires extra hardware
+
+### IoT device purchase considerations
+
+**Before buying, check:**
+- How long will manufacturer provide updates?
+- Does it require cloud services? (What if company shuts down?)
+- Can it work locally without internet?
+- What data does it collect and where is it sent?
+- Have there been past security incidents with this brand?
+- Are there independent security reviews?
+
+:wrench: **Tools for IoT security:**
+- Fing: https://www.fing.com/ (see all devices on network)
+- Bitdefender Home Scanner: https://www.bitdefender.com/solutions/home-scanner.html
+- Router
+
+Check: Check router security
+
+:exclamation: **Remember**: Convenience vs Security - every smart device is a potential entry point. Only connect devices you actually use.
 
 Thank you for taking care of your personal cyber-security. Share these tips with your friends, colleagues and close ones to make the world a bit safer.
 

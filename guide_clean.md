@@ -159,9 +159,12 @@ URL-адреси для налаштування багатофакторної 
 
 Переконайтеся в тому, що авто-оновлення Windows [налаштоване для перевірки оновлень для всіх продуктів Microsoft](https://www.winhelp.us/configure-automatic-updates-in-windows.html), включаючи MS Office.
 
-Оновлюйте програмне забезпечення від "сторонніх" постачальників регулярно та автоматично. Для цього використовуйте `Flexera` (раніше відома як Secunia) PSI або еквівалентне рішення, яке перевіряє наявність оновлень для вашого ПЗ та дозволяє вам встановлювати їх автоматично.
+Оновлюйте програмне забезпечення від "сторонніх" постачальників регулярно та автоматично. Використовуйте один із цих інструментів для перевірки та оновлення додатків:
 
-Flexra PSI: http://www.flexerasoftware.com/enterprise/products/software-vulnerability-management/personal-software-inspector/
+Інструменти:
+Windows Package Manager (winget) - Вбудовано в Windows 11+: `winget upgrade --all`
+Patch My PC: https://patchmypc.com/home-updater
+SUMo (Software Update Monitor): https://www.kcsoftwares.com/sumo/
 
 ### macOS
 
