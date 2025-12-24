@@ -53,8 +53,8 @@ VirusTotal: https://virustotal.com
 Шкідливі URL-адреси можуть бути закодовані в вигляді QR-кодів та/або роздруковані на папері, в тому числі в формі скорочених URL, згенерованих спеціальними сервісами на кшталт `tinyurl.com`, `bit.ly`, `ow.ly` тощо. Не вводьте ці посилання в браузер та не скануйте QR-коди вашим смартфоном якщо ви не впевнені у їхньому вмісті та їхньому походженні.
 
 Ви можете розгорнути скорочені URL перед відкриттям за допомогою цих веб-сайтів:
-- http://checkshorturl.com/
-- http://www.expandurl.net/
+- https://checkshorturl.com/
+- https://www.expandurl.net/
 
 Ці додатки до популярних браузерів здійснюють таке розгортання автоматично:
 - Google Chrome, [URL Unshortener](https://chrome.google.com/webstore/detail/url-unshortener/hciiopljaekhmopgaghflgfnhhbbaclm)
@@ -159,9 +159,11 @@ URL-адреси для налаштування багатофакторної 
 
 Переконайтеся в тому, що авто-оновлення Windows [налаштоване для перевірки оновлень для всіх продуктів Microsoft](https://www.winhelp.us/configure-automatic-updates-in-windows.html), включаючи MS Office.
 
-Оновлюйте програмне забезпечення від "сторонніх" постачальників регулярно та автоматично. Для цього використовуйте `Flexera` (раніше відома як Secunia) PSI або еквівалентне рішення, яке перевіряє наявність оновлень для вашого ПЗ та дозволяє вам встановлювати їх автоматично.
+Оновлюйте програмне забезпечення від "сторонніх" постачальників регулярно та автоматично. Сучасна Windows включає Windows Package Manager (`winget`), який може оновлювати встановлене ПЗ. Альтернативно, використовуйте такі інструменти як Chocolatey або Patch My PC.
 
-Flexra PSI: http://www.flexerasoftware.com/enterprise/products/software-vulnerability-management/personal-software-inspector/
+Windows Package Manager: `winget upgrade --all` (вбудовано в Windows 10/11)
+Chocolatey: https://chocolatey.org/
+Patch My PC: https://patchmypc.com/home-updater
 
 ### macOS
 
@@ -177,7 +179,7 @@ brew search wireshark
 brew search gpgtools
 ```
 
-Щоб встановити Homebrew, ознайомтеся з офіційною інструкцією: http://brew.sh 
+Щоб встановити Homebrew, ознайомтеся з офіційною інструкцією: https://brew.sh 
 
 В якості альтернативи, щоб тримати сторонні програми в актуальному стані, використовуйте MacInformer або еквівалентний інструмент. ПОПЕРЕДЖЕННЯ: хоча це й безпечніше, ніж не використовувати жоден механізм оновлення, такого роду програмне забезпечення може бути "рекламно-агресивним" та звісно ж не таким безпечним, як Homebrew. Отже, URL на продукт тут немає.
 
@@ -256,7 +258,7 @@ apt update && apt -y upgrade
 
 У разі, якщо ваша версія ОС Windows поставляється без BitLocker, використовуйте "сторонні" рішення. Наприклад `VeraCrypt`, який є відгалуженням від TrueCrypt, який у свою чергу припинив існування та не рекомендується для використання.
 
-VeraCrypt: https://veracrypt.codeplex.com
+VeraCrypt: https://veracrypt.fr/en/Home.html
 
 Ви також можете шифрувати зовнішні диски або окремі файли.
 
@@ -272,14 +274,14 @@ VeraCrypt: https://veracrypt.codeplex.com
 
 Месенджери, які здійснюють шифрування "з кінця в кінець" за замовчуванням:
 
-- Signal https://whispersystems.org
+- Signal https://signal.org
 - WhatsApp (uses Signal protocol) https://www.whatsapp.com
 - Viber https://www.viber.com
 - Threema https://threema.ch
 
 Месенджери з підтримкою посиленої анонімності:
-	
-- Ricochet https://ricochet.im
+
+- Ricochet Refresh https://www.ricochetrefresh.net/
 - Retroshare http://retroshare.net
 
 Інструкція з безпечного обміну миттєвими повідомленнями та порівняння рівня безпеки сучасних месенджерів від EFF: https://www.eff.org/secure-messaging-scorecard
