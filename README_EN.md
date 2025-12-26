@@ -30,7 +30,6 @@ Original mind map (updated):
 
 **Last updated: December 2024**
 
-**Last updated: December 2024**
 
 ## Don't click shit
 
