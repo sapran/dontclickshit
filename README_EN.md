@@ -228,7 +228,7 @@ Use password manager (password safe) software and follow these rules:
 
 :wrench: Examples of good password managers are:
 - 1Pasword https://1password.com
-- KeePass http://keepass.info
+- KeePass https://keepass.info
 - Password Safe https://pwsafe.org
 
 ## Use multi-factor authentication
@@ -552,11 +552,11 @@ In Windows 10 backup & restore functionality is easy and can be configured in `S
 
 For Windows 8.1 and 7 follow [Microsoft recommendations](https://support.microsoft.com/en-us/help/17127/windows-back-up-restore) on system and data backups.
 
-Select and use a [third party backup software](http://www.techradar.com/news/software/applications/best-free-backup-software-11-programs-we-recommend-1137924).
+Select and use a [third party backup software](https://www.techradar.com/news/software/applications/best-free-backup-software-11-programs-we-recommend-1137924).
 
 ### Linux
 
-Linux users have many backup mechanisms at their disposal: from tar to rsync remotely to a file share. Less technically savvy users can choose from [more user-friendly tools](http://www.nuxified.org/blog/easy-linux-backup-software-time-machine-functionality/).
+Linux users have many backup mechanisms at their disposal: from tar to rsync remotely to a file share. Less technically savvy users can choose from [more user-friendly tools like Timeshift, Cronopete, or Duplicati](https://alternativeto.net/software/time-machine/?platform=linux).
 
 You can backup your data by putting it to a cloud drive such as `Dropbox`, `iCloud Drive`, `Google Drive` etc. Don't forget to [encrypt data](#encrypt-cloud-data) before uploading it though.
 
@@ -699,7 +699,7 @@ Catch ransomware before it's too late:
 
 **Step 1: Identify the ransomware strain**
 
-:wrench: **ID Ransomware**: https://id-ransomware.malwarehunter.net/
+:wrench: **ID Ransomware**: https://id-ransomware.malwarehunterteam.com/
 - Upload ransom note or encrypted file sample
 - Identifies the specific ransomware variant
 - Important for finding decryption tools
@@ -783,11 +783,11 @@ Use `LUKS` or other means of Full Disk Encryption. Alternatively you can select 
 
 #### Windows
 
-Enable `BitLocker`. It's fast, it's native to Windows, and it's easy to configure and use. [Microsoft guide](http://www.howtogeek.com/234826/how-to-enable-full-disk-encryption-on-windows-10/).
+Enable `BitLocker`. It's fast, it's native to Windows, and it's easy to configure and use. [Microsoft guide](https://www.howtogeek.com/234826/how-to-enable-full-disk-encryption-on-windows-10/).
 
 In case your edition of Windows comes without BitLocker, use a third party solution such as `VeraCrypt`, a fork of TrueCrypt, which itself is not recommended.
 
-:wrench: VeraCrypt: https://veracrypt.codeplex.com
+:wrench: VeraCrypt: https://www.veracrypt.fr/en/Home.html
 
 :bulb: You can encrypt external drives or individual files too.
 
@@ -808,12 +808,7 @@ Use trusted end-to-end encrypted communications for private/confidential data. E
 - Viber https://www.viber.com
 - Threema https://threema.ch
 
-:wrench: High anonymity IMs:
-
-- Ricochet https://ricochet.im
-- Retroshare http://retroshare.net
-
-EFF secure instant messaging guide and scorecard https://www.eff.org/secure-messaging-scorecard
+:bulb: Secure messaging apps comparison: https://www.securemessagingapps.com
 
 ### Encrypt cloud data
 
